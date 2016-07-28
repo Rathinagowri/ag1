@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Angular JS</title>
+  <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="">
+<h1> Form </h1>
+<form name=myform>
+FirstName:&nbsp;&nbsp;{{name}}  <br><br>
+LastName:&nbsp;&nbsp;{{lname}} <br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=button value="submit" onclick="dis();">
+<div class="container">
+  <h2>Table</h2>
+  
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id=a1> <input type=text value={{name}} ng-model="name" ></td>
+        <td id=a2> <input type=text value={{lname}} ng-model="lname" ></td>
+
+        
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+<script>
+
+</script>
+</DIV>
+</body>
+</html>
+
